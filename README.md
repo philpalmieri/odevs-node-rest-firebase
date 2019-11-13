@@ -26,3 +26,5 @@ POST
 - /api/users (email=foo@bar)
 - /api/events (title=something&city=somewhere)
 - /api/events/:eventId/rsvps (userId=userId&status=anythingyouwant)
+
+
