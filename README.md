@@ -13,3 +13,16 @@ There is no validation or testing, it is purely to show a proof of concept.
 
 - Setup a FB account, then you can deploy with firebase deploy... but.. DON'T - this is hacked together code only to show how it works... really, don't use this.
 
+
+## API Docs (if you can call it that)
+
+GET
+- /api/users
+- /api/users/:userId
+- /api/events
+- /api/events/:eventId
+
+POST
+- /api/users (email=foo@bar)
+- /api/events (title=something&city=somewhere)
+- /api/events/:eventId/rsvps (userId=userId&status=anythingyouwant)
